@@ -1,4 +1,4 @@
 $('#startgame').click(function(){
-	  window.location.href='chooseplayer.html';
+	  window.location.href='startgame.html';
 })
 
