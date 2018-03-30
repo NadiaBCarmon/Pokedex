@@ -1,0 +1,21 @@
+html {
+	background-color: #1a237e;
+	border: dashed; 
+	border-color: #fbc02d; 
+	height: 100vh;
+	width: 100vw;
+}
+
+#main-screen img {
+	height: 700px;
+	width: 900px;
+	margin-left: 18%;
+}
+
+/*.test {
+  background:gray;
+  width:200px;
+  height:200px;
+  cursor:url("Images/pointer.png"), auto;
+}
+<div class="test">TEST</div>*/
