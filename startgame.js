@@ -1,4 +1,3 @@
-$('#on-button').click(function(){
-	$('#welcome').text("Welcome Vee!").css("color", "yellow")
-
+ $('#on-button').click(function(){
+      $('#welcome').css("visibility", "visible")
 })

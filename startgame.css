@@ -52,6 +52,18 @@ top: 5%;
 	width: 120px;	
 	}
 
+#welcome {
+	visibility: hidden;
+}	
+
+#welcome img {
+	height: 190px;
+	width: 300px;
+	position: absolute;
+	bottom: 33%;
+	margin-left: 38.5%;
+}
+
 /*#test {
   width:200px;
   height:200px;
