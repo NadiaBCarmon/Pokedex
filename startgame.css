@@ -77,13 +77,45 @@ top: 5%;
 	margin-left: 38.5%;
 }
 
-#welcome img {
+h3 {
+	display: inline;
+	font-size: 23px;
+}
+
+#kakuna {
+	color: #d50000;
+	height: 190px;
+	width: 300px;
+	position: absolute;
+	top: 65%;
+	margin-left: 32.9%;
+}
+
+#masquerain {
+	color: #ffd600;
+	height: 190px;
+	width: 300px;
+	position: absolute;
+	top: 65%;
+	margin-left: 46.5%;
+}
+
+#typhlosion {
+	color: #64dd17;
+	height: 190px;
+	width: 300px;
+	position: absolute;
+	top: 65%;
+	margin-left: 62.5%;
+}
+
+/*#welcome img {
 	height: 190px;
 	width: 300px;
 	position: absolute;
 	bottom: 33%;
 	margin-left: 38.5%;
-}
+}*/
 
 /*#test {
   width:200px;
