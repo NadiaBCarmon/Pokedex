@@ -109,6 +109,35 @@ h3 {
 	margin-left: 62.5%;
 }
 
+#poke-calls {
+	height: 190px;
+	width: 300px;
+	position: absolute;
+	bottom: 33%;
+	margin-left: 34.5%;
+}
+
+#poke-image img {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	bottom: 33%;
+	margin-left: 51.9%;
+}
+
+#kakuna-image {
+	visibility: hidden;
+}
+
+#typhlosion-image {
+	visibility: hidden;
+}
+
+#masquerain-image {
+	visibility: hidden;
+}
+
+
 /*#welcome img {
 	height: 190px;
 	width: 300px;
