@@ -1,5 +1,12 @@
  $('#on-button').click(function(){
-      $('#welcome').css("visibility", "visible")     
+      $('#welcome').css("visibility", "visible")  
+
+      $('#typhlosion-image').css("visibility", "hidden")
+
+	  $('#kakuna-image').css("visibility", "hidden")
+	  $('#masquerain-image').css("visibility", "hidden") 
+
+	  $('#poke-calls').css("visibility", "hidden")  
 })
 
  class Pokemon {
@@ -50,6 +57,7 @@ function abilities(pokemon){
 		  			$('#typhlosion-image').css("visibility", "hidden")
 		  			$('#masquerain-image').css("visibility", "hidden") 
 
+		  			$('#poke-calls').css("visibility", "visible")  
 		  			$('#name').text(pokemon.name).css("text-align", "center")
 		  		    $('#abilities').text(abilities(pokemon)).css("text-align", "center")
 
@@ -82,8 +90,9 @@ function abilities(pokemon){
 		  			$('#typhlosion-image').css("visibility", "visible")
 
 		  			$('#kakuna-image').css("visibility", "hidden")
-		  			$('#masquerain-image').css("visibility", "hidden") 
+		  			$('#masquerain-image').css("visibility", "hidden")
 
+		  			$('#poke-calls').css("visibility", "visible")   
 		  			$('#name').text(pokemon.name).css("text-align", "center")
 		  		    $('#abilities').text(abilities(pokemon)).css("text-align", "center")
 
@@ -117,7 +126,8 @@ function abilities(pokemon){
 
 		  			$('#typhlosion-image').css("visibility", "hidden")
 		  			$('#kakuna-image').css("visibility", "hidden") 
-
+		  			
+		  			$('#poke-calls').css("visibility", "visible")  
 		  			$('#name').text(pokemon.name).css("text-align", "center")
 		  		    $('#abilities').text(abilities(pokemon)).css("text-align", "center")
 		  		 
